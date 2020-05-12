@@ -1,5 +1,5 @@
 /* This library is released under the MIT license, see https://github.com/tehnokv/picojs */
-pico = {}
+var pico = {}
 
 pico.unpack_cascade = function(bytes)
 {
@@ -198,3 +198,5 @@ pico.instantiate_detection_memory = function(size)
 	*/
 	return update_memory;
 }
+
+module.exports = pico

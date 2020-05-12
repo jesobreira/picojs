@@ -1,5 +1,5 @@
 /* This library is released under the MIT license, contact @tehnokv for more details */
-lploc = {}
+var lploc = {}
 
 lploc.unpack_localizer = function(bytes)
 {
@@ -117,3 +117,5 @@ lploc.unpack_localizer = function(bytes)
 	*/
 	return loc_fun_with_perturbs;
 }
+
+module.exports = lploc
